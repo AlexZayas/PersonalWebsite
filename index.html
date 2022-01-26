@@ -8,44 +8,60 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Oxygen&family=Oxygen+Mono&display=swap" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet" />
+    <link href="./dockureIconLogo.png"/>
     <title>Alex Zayas' Portfolio</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
   <nav>
+
     <ul>
+
       <li>
-        <h1><a href="index.html">Alex Zayas</a></h1>
+        <h1>
+          <a href="index.html">
+            <span class="fas fa-keyboard" aria-hidden="true"></span>
+            Alex Zayas
+          </a>
+        </h1>
       </li>
+
       <li>
         <a href="#projects">Projects</a>
       </li>
+
       <li>
         <a href="about.html">About</a>
       </li>
+
       <li>
         <a href="#contact">Contact</a>
       </li>
+
       <li>
         <a href="https://www.linkedin.com/in/alexander-zayas-jr/" target="_blank">
         <span class="fab fa-linkedin" aria-hidden="true"></span>
         <span class="sr-only">LinkedIn</span>
       </a>
       </li>
+
       <li>
         <a href="https://github.com/AlexZayas" target="_blank">
           <span class="fab fa-github-square" aria-hidden="true"></span>
           <span class="sr-only">Github</span>
         </a>
       </li>
+
       <li>
         <a href="https://docs.google.com/document/d/1-kem3t3OjpvnYs-I-IjctySVpW8EZ0ql/edit?usp=sharing&ouid=100049043467852566010&rtpof=true&sd=true" target="_blank" class="button">Resume</a>
       </li>
     </ul>
+    
   </nav>
 
     <section id='intro'>
+
         <p class="name">
       Hi, my name is <span>Alex Zayas.</span>
         </p>
@@ -57,18 +73,59 @@
       <p>
         I'm a student, a developer and a designer specializing in HTML, CSS, React, Redux, Node, Express, and SQL.
       </p>
+
       <p>  
       Currently, I'm am a developer in the open source community and looking for my next challenge. (Speak about Dockure and add link to website.)
-      </p>  
+      </p>
+
       </section>
 
+      <div class="gradient"></div>
+
+      <div class="section-color">
       <section id="contact">
           <h2>Contact Me</h2>
           <p>
               I'm always interested in hearing about new Fullstack or Backend opportunities.
           </p>
-          <p><a href="mailto:zayas.alexander@gmail.com">Email me</a></p>
+          <p><a href="mailto:A@A.com" class="button">Email me</a></p>
       </section>
+    </div>
+
+    <div class="gradient"></div>
+
+    <div class="projectcolor ">
+    <section id="projects">
+      <h2>Projects I'm Proud of</h2>
+
+      <article>
+        <h4>Latest Project</h4>
+        <h3>Dockure</h3>
+        <p class="blackbox">Dockure allows users to seamlessly create images and build containers by consolidating the containerization process outside of the IDE and command line into an intuitive UI, with the purpose of saving development time.
+          <a href="https://dockure.com" target="_blank">
+            <img src="dockureIconLogo.png" class="dockure" aria-hidden="true"></img>
+            <span class="sr-only">Dockure</span>
+          </a>
+        </p>
+      
+        <h4>Technologies used include:</h4>
+      
+        <ul>
+          <li>React</li>
+          <li>Redux</li>
+          <li>Express</li>
+          <li>Docker</li>
+          <li>Node Child Process</li>
+          <li>Electron</li>
+          <li>Prometheus</li>
+          <li>CAdvisor</li>
+        </ul>
+      </article>
+    </section>
+    </div>
+  
+
+    <div class="gradient"></div>
 
       <footer>
         <h2>Alex Zayas &middot; Fullstack Developer</h2>
@@ -86,7 +143,7 @@
                 </a>
             </li>
             <li>
-                <a href="mailto:zayas.alexander@gmail.com">
+                <a href="mailto:A@A.com">
                     <span class="fas fa-envelope" aria-hidden="true"></span>
                     <span class="sr-only">Email</span>
                 </a>
